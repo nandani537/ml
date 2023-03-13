@@ -1,0 +1,13 @@
+prefix=/Users/nandani/ml/ml/ven
+exec_prefix=/Users/nandani/ml/ml/ven
+libdir=/Users/nandani/ml/ml/ven/lib
+sharedlibdir=/Users/nandani/ml/ml/ven/lib
+includedir=/Users/nandani/ml/ml/ven/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
